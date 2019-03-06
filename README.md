@@ -20,14 +20,14 @@ A script that helps you deploy a project from github, install and setup all depe
 
 >- To setup your environment variables used the .env.sample as a guide
 >- export domainName='your domain name'
->- export domainName2='www.your domain name'
+>- export domainName2='www. your domain name'
 >- export email='your email'
 >- export repo='your project github repo'
 
 ### Setup Route 53 on AWS
 
-For your ip address to map to your domain, you need to configure your Route 53 with the ip address of your instance
-use the dns provided by Rout 53 on your domain name dns settings.
+For your ip address to map to your domain, you need to configure your Route 53 with the ip address of your instance.
+Use the dns provided by Route 53 on your domain name dns settings.
 
 
 #### Instructions
